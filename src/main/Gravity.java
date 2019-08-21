@@ -18,7 +18,7 @@ public class Gravity {
         System.out.println("ENTER TIME");
         time = sc.nextDouble();
         speed = GRAVITY * time;
-
+        distance = (GRAVITY * time * time) / 2;
 		/* TODO 2:
 		 *   c. Calculate the result and print it to the screen.
 		 * */
