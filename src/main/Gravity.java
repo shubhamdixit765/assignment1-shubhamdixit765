@@ -9,7 +9,6 @@ package main;
 
 import java.util.Scanner;
 public class Gravity {
-	// TODO 1: Create the main method
 	public static void main(String[] args) {
         double time;
         double speed;
@@ -17,7 +16,9 @@ public class Gravity {
         double GRAVITY = 9.8;
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER TIME");
-        time = sc.nextINT();
+        time = sc.nextDouble();
+        speed = GRAVITY * time;
+
 		/* TODO 2:
 		 *   c. Calculate the result and print it to the screen.
 		 * */
